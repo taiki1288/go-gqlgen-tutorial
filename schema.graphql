@@ -13,3 +13,8 @@ type User {
 type Query {
     todos: [Todo!]
 }
+
+input NewTodo {
+    text: String!
+    userId: String!
+}
